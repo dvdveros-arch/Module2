@@ -1,0 +1,15 @@
+C:\Users\Student_03\Documents\oop\module2\bin\Debug\net9.0\module2.exe
+C:\Users\Student_03\Documents\oop\module2\bin\Debug\net9.0\module2.deps.json
+C:\Users\Student_03\Documents\oop\module2\bin\Debug\net9.0\module2.runtimeconfig.json
+C:\Users\Student_03\Documents\oop\module2\bin\Debug\net9.0\module2.dll
+C:\Users\Student_03\Documents\oop\module2\bin\Debug\net9.0\module2.pdb
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.AssemblyInfoInputs.cache
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.AssemblyInfo.cs
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.csproj.CoreCompileInputs.cache
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.sourcelink.json
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.dll
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\refint\module2.dll
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.pdb
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\module2.genruntimeconfig.cache
+C:\Users\Student_03\Documents\oop\module2\obj\Debug\net9.0\ref\module2.dll
