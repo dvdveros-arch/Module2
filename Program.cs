@@ -37,5 +37,26 @@ class Program
         Console.WriteLine(Comparer<double>.Max(2.5, 1.1));
         Console.WriteLine(Comparer<string>.Max("A", "B"));
 
+        // ===== 5. Проверка OperationResult =====
+        Console.WriteLine("\n----------------");
+        var result1 = CreatePerson("Челик", 99); //корректный ввод
+        var result2 = CreatePerson("Чудик", -1); //ошибка
+        Console.WriteLine(result1.IsSuccess ? result1.Value : result1.Error);
+        Console.WriteLine(result2.IsSuccess ? result2.Value : result2.Error);
+
+        // Метод создания объекта Person с проверками
+        static OperationResult<Person> CreatePerson(string name, int age)
+        {
+            // проверка имени
+            if (string.IsNullOrEmpty(name))
+                return OperationResult<Person>.Failure("Имя пустое");
+
+            //проверка возврата
+            if (age < 0)
+                return OperationResult<Person>.Failure("Возраст отрицательный");
+
+            // Если всё хорошо — создаём объект
+            return OperationResult<Person>.Success(new Person { Name = name, Age = age });
+        }
     }
 }
